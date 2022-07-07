@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>제품 상세 보기</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/app.js"></script>
+</head>
+<body id="detail">
+    <header id="main-header">
+    <h1>
+        <a href="./">
+            <img src="./images/logo.svg" alt="젠하이저">
+        </a>
+    </h1>
+    <nav id="icon-menu">
+        <a href="#"><i class="bi bi-bag"></i></a>
+        <a href="#"><i class="bi bi-search"></i></a>
+        <button id="toggle-btn"><i class="bi bi-list"></i></button>
+    </nav>
+    <nav id="gnb">
+        <ul>
+            <li><a href="about.html">젠하이저 소개</a></li>
+            <li><a href="products.html">신상품</a></li>
+            <li><a href="products.html">헤드폰</a></li>
+            <li><a href="#">고객지원</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">주문조회</a></li>
+        </ul>
+        <button id="btn-close"><i class="bi bi-x"></i></button>
+    </nav>
+    </header>
+
+    <main>
+        <header>
+            <div class="container">
+                <h1>MOMENTUM True Wireless 3</h1>
+                <p class="price"><span>￦</span>229,000</p>
+            </div>
+        </header>
+
+        <figure>
+            <img src="images/HD 650-key.webp" alt="제품사진">
+        </figure>
+        <div class="container">
+            <p>새로운 이어버드 시리즈의 선도적인 오디오 기술과 혁신으로 언제 어디서나 최고의 청취 경험을 즐겨보세요. 각각의 새로운 쌍은 모든 가격대와 기능 요구 사항을 충족하기 위해 신중하게 개발되었습니다.</p>
+            <div class="buy-btn-group">
+                <a 
+                onclick="alert('지금은 구매하실 수 없습니다.')"
+                href="#" 
+                class="btn-large btn-outline">장바구니
+            </a>
+                <a 
+                onclick="alert('지금은 구매하실 수 없습니다.')"
+                href="#" 
+                class="btn-large">구매하기
+            </a>
+            </div>
+        </div>
+    </main>
+
+    <footer id="main-footer">
+        <nav class="sns">
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-twitter"></i></a>
+            <a href="#"><i class="bi bi-youtube"></i></a>
+        </nav>
+        
+        <nav class="footer-menu">
+            <a href="#">이용약관</a><span>|</span>
+            <a href="#"><strong>개인정보취급방침</strong></a>
+        </nav>
+
+        <p class="copy">&copy; 2022 Sonova Consumer Hearing GmbH</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,114 @@
+/* products */
+#products .row {
+    flex-wrap: wrap;
+    /* 칼럼 사이의 여백 */
+    gap: 40px 10px; /* 수직 | 수평 gutter */
+}
+
+#products .product {
+    width: calc(50% - 5px);
+    /* background: #ccc; */
+}
+
+#products .product a {
+    color: #fff;
+}
+
+#products .product img {
+    width: 100%;
+    display: block;
+    margin-bottom: 5px;
+}
+
+#products main .container {
+    padding-top: 30px;
+}
+
+#products .product .info {
+    background-color: var(--bg-color2);
+}
+
+#products .product .info .category{
+    font-weight: 500;
+    font-size: 12px;
+    color: var(--main-color);
+    margin-bottom: 5px;
+}
+
+#products .product .info .title {
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+#products .product .info .price {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+#main-footer {
+    background-color: var(--bg-color1);
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 12px;
+}
+
+#main-footer a {
+    color: #fff;
+}
+
+#main-footer .sns a {
+    margin-right: 1rem;
+}
+
+#main-footer .sns a:last-child {
+    margin-right: 0;
+}
+
+#main-footer .footer-menu {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+#main-footer .footer-menu strong {
+    font-weight: 500;
+}
+
+#main-footer .footer-menu span {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    font-weight: 400;
+    font-size: 10px;
+    opacity: 0.6;
+}
+
+/* deatil */
+#detail main figure img {
+    width: 100%;
+}
+
+#detail main header h1 {
+    margin-bottom: 20px;
+}
+
+#detail main header {
+    padding-bottom: 20px;
+}
+
+#detail main .container {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+#detail main .buy-btn-group {
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+}
+
+#detail main .buy-btn-group .btn-large {
+    width: 50%;
+}
